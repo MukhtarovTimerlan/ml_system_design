@@ -1,0 +1,13 @@
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W", "C", "Q"]  # базовые категории (можно изменить)
+exclude = [
+    ".venv",
+    "venv",
+    "__pycache__",
+    "build",
+    "dist",
+    ".git",
+    "data",
+    "notebooks",
+]
